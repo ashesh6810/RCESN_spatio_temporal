@@ -2,9 +2,9 @@ These codes are supplements to the paper titled "Data-driven prediction of a mul
 
 They contain versions of the Echo State Network, The ANN, and the LSTM. It also contains a data set of the normalized Lorenz96 equations integrated upto 1M time steps.
 
-Alternatively you can use the lorenz solver which is provided as a .m file to integrate the system to as many time steps as you want
+Alternatively you can use the lorenz solver which is provided as a .m file to integrate the system to as many time steps as you want. This code has been developed by my friend, Adam Subel. 
 
-For any questions, reproducibility issues or concerns about the initial conditons to choose, email me at akc6@rice.edu/ashesh6810@gmail.com
+For any questions, reproducibility issues or concerns about the initial conditons to choose, email me at akc6@rice.edu / ashesh6810@gmail.com
 
 I thank Pantelis, Peter Dueben and Jaideep Pathak for their generousity in sharing or open sourcing codes to perform honest comparisons in this paper. 
 
