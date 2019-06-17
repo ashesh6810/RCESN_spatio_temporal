@@ -8,6 +8,7 @@ import pandas as pd
 
 
 # global variables
+#This will change the initial condition used. Currently it starts from the first# value
 shift_k = 0
 
 approx_res_size = 5000
