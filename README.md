@@ -6,6 +6,9 @@ Alternatively you can use the lorenz solver which is provided as a .m file to in
 
 For any questions, reproducibility issues or concerns about the initial conditons to choose, email me at akc6@rice.edu/ashesh6810@gmail.com
 
+I thank Pantelis, Peter Dueben and Jaideep Pathak for their generousity in sharing or open sourcing codes to perform honest comparisons in this paper. 
+
+
 
 Please note that apart from the ESN, which is implemented from scratch the other codes are supported by Keras on a Tensorflow backend. Depending on the Keras version, you may need to change "epochs" to "nb_epoch" or the other way around in the model.fit() API in Keras.
 
