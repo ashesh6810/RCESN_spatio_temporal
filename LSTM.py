@@ -80,10 +80,10 @@ def make_and_train_LSTM_model(Xtrain,Ytrain,nfeatures,nhidden):
     model = Sequential()
     model.add(LSTM(nhidden, input_shape=(Xtrain.shape[1], Xtrain.shape[2])))
     model.add(Dense(nfeatures))
-    model.compile(loss='mae', optimizer='adam')
+    model.compile(loss='mse', optimizer='adam')
 
     # fit network
-    history = model.fit(Xtrain, Ytrain, epochs=10, batch_size=72, verbose=2, shuffle=False)
+    history = model.fit(Xtrain, Ytrain, epochs=10, batch_size=72, verbose=2, shuffle=True)
     
     return model,history
 
