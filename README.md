@@ -1,5 +1,5 @@
-These codes are supplements to the paper titled "Data-driven prediction of a multi-scale Lorenz 96 chaotic system using a hierarchy of deep learning methods: Reservoir computing, ANN, and RNN-LSTM"
-link :https://arxiv.org/abs/1906.08829
+These codes are supplements to the paper titled "Data-driven predictions of a multiscale Lorenz 96 chaotic system using machine-learning methods: reservoir computing, artificial neural network, and long short-term memory network"
+link: https://npg.copernicus.org/articles/27/373/2020/npg-27-373-2020-discussion.html
 
 They contain versions of the Echo State Network, The ANN, and the LSTM. It also contains a data set of the normalized Lorenz96 equations integrated upto 1M time steps.
 
